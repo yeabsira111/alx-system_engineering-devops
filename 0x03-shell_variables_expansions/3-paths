@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo $(('echo $PATH | grep -o ":/" | wc -1'+ 1))
+=======
+echo $(('echo $PATH | grep -0 ":/" | wc -1'+ 1))
+>>>>>>> 6121c4f8b72240aec4003d1e619c0487b0606f88
